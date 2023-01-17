@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    color: white;
+    font-family: "Motiva Sans",Arial,Helvetica,sans-serif;
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    margin: 0px;
+    font-size: 1.2em;
+}   
+
+.container {
+    background-color: rgb(119, 136, 153, 0.9); 
+    padding: 0px 10px;
+
+}
+
+.center-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.header-item {
+    height: auto;
+}
+
+.profile-holder {
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    z-index: 10;
+}
+.profile-holder img{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 7px;
+}
+
+.actual-name {
+    padding-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.introductory-text {
+    width: 400px;
+    padding: 0px;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.name-spacer {
+    height: 70px;
+}
+
+.profile-summary{
+    width: 100%;
+    height: 10vh
+}
+
+.social-links {
+    width: 250px;
+} 
+
+.socials {
+    display: flex;
+    position: relative;
+    top: 50px;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    border-radius: 10px;
+}
+.social-links span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.links {
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+
+.social-icons a{
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.resume-button a{
+    margin: 10px 0;
+    padding: 0.7em 1.2em;
+    background-color: rgb(120, 177, 207);
+    color: white;
+    font-size: 0.7em;
+    border-radius: 2px ;
+    text-decoration: none;
+}
+.resume-button a:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+
+.content {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.content-head {
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px 10px;
+    background-color: rgba(103, 154, 181, 0.8);
+}
+
+.content-block {
+    padding:10px;
+}
+.content-inner {
+    background: rgba(60, 69, 82, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+.content-inner a{
+    text-decoration: none;
+    color: white;
+}
+
+.skill-content {
+    display: flex;
+    font-size: 4em;
+    text-decoration: none;
+    color: white;
+}
+
+.skill-content a {
+    padding: 5px 15px;
+}
+
